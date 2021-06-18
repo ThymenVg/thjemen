@@ -1,0 +1,34 @@
+@font-face {
+    font-family: RobotoMono-ExtraLight;
+    src: url(./fonts/RobotoMono-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: RobotoMono-ExtraLightItalic;
+    src: url(./fonts/RobotoMono-ExtraLightItalic.ttf);
+}
+
+@font-face {
+    font-family: RobotoMono-Italic;
+    src: url(./fonts/RobotoMono-Italic.ttf);
+}
+
+@font-face {
+    font-family: RobotoMono-Light;
+    src: url(./fonts/RobotoMono-Light.ttf);
+}
+
+@font-face {
+    font-family: RobotoMono-LightItalic;
+    src: url(./fonts/RobotoMono-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: RobotoMono-Thin;
+    src: url(./fonts/RobotoMono-Thin.ttf);
+}
+
+@font-face {
+    font-family: RobotoMono-ThinItalic;
+    src: url(./fonts/RobotoMono-ThinItalic.ttf);
+}

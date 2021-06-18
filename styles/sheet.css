@@ -1,0 +1,102 @@
+:root {
+    --background-color: #000000;
+    --text-color: #000000;
+    --text-color-highlighted: #1878d1;
+    --blur-amount: 8px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    font-family: RobotoMono-Light;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select:none; 
+    user-select:none;
+    -o-user-select:none;
+    color: var(--text-color);
+    overflow: hidden;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+    transition: all .25s;
+}
+
+a:visited {
+    color: var(--text-color);
+}
+
+a:hover {
+    color: var(--text-color-highlighted);
+}
+
+h1 {
+    font-size: 64pt;
+    margin: 0;
+    padding: 0;
+    transition: all .25s;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+h1:hover {
+    color: var(--text-color-highlighted);
+    letter-spacing: 2px;
+}
+
+.links {
+    text-align: center;
+}
+
+.background {
+    filter: blur(var(--blur-amount));
+    -webkit-filter: blur(var(--blur-amount));
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.background_image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cursor {
+    display: inline-block;
+    background-color: var(--text-color);
+    margin-left: .1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+}
+
+.cursor.typing {
+    animation: none;
+}
+
+@keyframes blink {
+    0% { background-color: var(--text-color); }
+    49% { background-color: var(--text-color); }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100% { background-color: var(--text-color); }
+}
