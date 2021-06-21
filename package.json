@@ -1,11 +1,14 @@
 {
-  "name": "css-thjemen",
+  "name": "css-unclean",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000t\u0000h\u0000j\u0000e\u0000m\u0000e\u0000n\u0000\r\u0000 \u0000",
+  "description": "",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
-    "start": "node ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,8 +19,5 @@
   "bugs": {
     "url": "https://github.com/ThymenVg/thjemen/issues"
   },
-  "homepage": "https://github.com/ThymenVg/thjemen#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/ThymenVg/thjemen#readme"
 }

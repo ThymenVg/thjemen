@@ -1,8 +1,8 @@
 :root {
     --background-color: #000000;
-    --text-color: #000000;
-    --text-color-highlighted: #1878d1;
-    --blur-amount: 8px;
+    --text-color: #ffffff;
+    --text-color-highlighted: #fad60a;
+    --blur-amount: 10px;
 }
 
 html {
@@ -13,6 +13,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--background-color);
+    text-shadow: 1px 1px #000000;
     font-family: RobotoMono-Light;
     -moz-user-select: none; 
     -webkit-user-select: none; 
