@@ -1,7 +1,7 @@
 {
   "name": "css-unclean",
   "version": "1.0.0",
-  "description": "",
+  "description": "��#\u0000 \u0000g\u0000o\u0000t\u0000y\u0000a\u0000\r\u0000 \u0000",
   "main": "index.js",
   "dependencies": {
     "express": "^4.17.1"
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ThymenVg/thjemen.git"
+    "url": "git+https://github.com/ThymenVg/gotya.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ThymenVg/thjemen/issues"
+    "url": "https://github.com/ThymenVg/gotya/issues"
   },
-  "homepage": "https://github.com/ThymenVg/thjemen#readme"
+  "homepage": "https://github.com/ThymenVg/gotya#readme"
 }
